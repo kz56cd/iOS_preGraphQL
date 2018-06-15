@@ -7,64 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA266EA720D0C8F600C1147D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA266EA620D0C8F600C1147D /* AppDelegate.swift */; };
-		EA266EA920D0C8F600C1147D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA266EA820D0C8F600C1147D /* ViewController.swift */; };
-		EA266EAC20D0C8F600C1147D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA266EAA20D0C8F600C1147D /* Main.storyboard */; };
-		EA266EAE20D0C8F700C1147D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA266EAD20D0C8F700C1147D /* Assets.xcassets */; };
-		EA266EB120D0C8F700C1147D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA266EAF20D0C8F700C1147D /* LaunchScreen.storyboard */; };
-		EA266EBC20D0C8F700C1147D /* PreGraphQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA266EBB20D0C8F700C1147D /* PreGraphQLTests.swift */; };
-		EA266EC720D0C8F700C1147D /* PreGraphQLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA266EC620D0C8F700C1147D /* PreGraphQLUITests.swift */; };
+		EA27F6E720D3927B0098409B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA27F6E620D3927B0098409B /* AppDelegate.swift */; };
+		EA27F6E920D3927B0098409B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA27F6E820D3927B0098409B /* ViewController.swift */; };
+		EA27F6EC20D3927B0098409B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA27F6EA20D3927B0098409B /* Main.storyboard */; };
+		EA27F6EE20D3927C0098409B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA27F6ED20D3927C0098409B /* Assets.xcassets */; };
+		EA27F6F120D3927C0098409B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA27F6EF20D3927C0098409B /* LaunchScreen.storyboard */; };
+		EA27F6FC20D3927C0098409B /* PreGraphQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA27F6FB20D3927C0098409B /* PreGraphQLTests.swift */; };
+		EA27F70720D3927C0098409B /* PreGraphQLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA27F70620D3927C0098409B /* PreGraphQLUITests.swift */; };
+		EA27F71620D3940A0098409B /* Apollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA27F71520D3940A0098409B /* Apollo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EA266EB820D0C8F700C1147D /* PBXContainerItemProxy */ = {
+		EA27F6F820D3927C0098409B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EA266E9B20D0C8F600C1147D /* Project object */;
+			containerPortal = EA27F6DB20D3927B0098409B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EA266EA220D0C8F600C1147D;
+			remoteGlobalIDString = EA27F6E220D3927B0098409B;
 			remoteInfo = PreGraphQL;
 		};
-		EA266EC320D0C8F700C1147D /* PBXContainerItemProxy */ = {
+		EA27F70320D3927C0098409B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EA266E9B20D0C8F600C1147D /* Project object */;
+			containerPortal = EA27F6DB20D3927B0098409B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EA266EA220D0C8F600C1147D;
+			remoteGlobalIDString = EA27F6E220D3927B0098409B;
 			remoteInfo = PreGraphQL;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA266EA320D0C8F600C1147D /* PreGraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreGraphQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA266EA620D0C8F600C1147D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA266EA820D0C8F600C1147D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EA266EAB20D0C8F600C1147D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EA266EAD20D0C8F700C1147D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EA266EB020D0C8F700C1147D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EA266EB220D0C8F700C1147D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA266EB720D0C8F700C1147D /* PreGraphQLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreGraphQLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA266EBB20D0C8F700C1147D /* PreGraphQLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreGraphQLTests.swift; sourceTree = "<group>"; };
-		EA266EBD20D0C8F700C1147D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA266EC220D0C8F700C1147D /* PreGraphQLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreGraphQLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA266EC620D0C8F700C1147D /* PreGraphQLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreGraphQLUITests.swift; sourceTree = "<group>"; };
-		EA266EC820D0C8F700C1147D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA27F6E320D3927B0098409B /* PreGraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreGraphQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA27F6E620D3927B0098409B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA27F6E820D3927B0098409B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA27F6EB20D3927B0098409B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA27F6ED20D3927C0098409B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA27F6F020D3927C0098409B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA27F6F220D3927C0098409B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA27F6F720D3927C0098409B /* PreGraphQLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreGraphQLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA27F6FB20D3927C0098409B /* PreGraphQLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreGraphQLTests.swift; sourceTree = "<group>"; };
+		EA27F6FD20D3927C0098409B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA27F70220D3927C0098409B /* PreGraphQLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreGraphQLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA27F70620D3927C0098409B /* PreGraphQLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreGraphQLUITests.swift; sourceTree = "<group>"; };
+		EA27F70820D3927C0098409B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA27F71520D3940A0098409B /* Apollo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Apollo.framework; path = Carthage/Build/iOS/Apollo.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EA266EA020D0C8F600C1147D /* Frameworks */ = {
+		EA27F6E020D3927B0098409B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA27F71620D3940A0098409B /* Apollo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA27F6F420D3927C0098409B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA266EB420D0C8F700C1147D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA266EBF20D0C8F700C1147D /* Frameworks */ = {
+		EA27F6FF20D3927C0098409B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,67 +77,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA266E9A20D0C8F600C1147D = {
+		EA27F6DA20D3927B0098409B = {
 			isa = PBXGroup;
 			children = (
-				EA266EA520D0C8F600C1147D /* PreGraphQL */,
-				EA266EBA20D0C8F700C1147D /* PreGraphQLTests */,
-				EA266EC520D0C8F700C1147D /* PreGraphQLUITests */,
-				EA266EA420D0C8F600C1147D /* Products */,
+				EA27F6E520D3927B0098409B /* PreGraphQL */,
+				EA27F6FA20D3927C0098409B /* PreGraphQLTests */,
+				EA27F70520D3927C0098409B /* PreGraphQLUITests */,
+				EA27F6E420D3927B0098409B /* Products */,
+				EA27F71420D394090098409B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		EA266EA420D0C8F600C1147D /* Products */ = {
+		EA27F6E420D3927B0098409B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA266EA320D0C8F600C1147D /* PreGraphQL.app */,
-				EA266EB720D0C8F700C1147D /* PreGraphQLTests.xctest */,
-				EA266EC220D0C8F700C1147D /* PreGraphQLUITests.xctest */,
+				EA27F6E320D3927B0098409B /* PreGraphQL.app */,
+				EA27F6F720D3927C0098409B /* PreGraphQLTests.xctest */,
+				EA27F70220D3927C0098409B /* PreGraphQLUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA266EA520D0C8F600C1147D /* PreGraphQL */ = {
+		EA27F6E520D3927B0098409B /* PreGraphQL */ = {
 			isa = PBXGroup;
 			children = (
-				EA266EA620D0C8F600C1147D /* AppDelegate.swift */,
-				EA266EA820D0C8F600C1147D /* ViewController.swift */,
-				EA266EAA20D0C8F600C1147D /* Main.storyboard */,
-				EA266EAD20D0C8F700C1147D /* Assets.xcassets */,
-				EA266EAF20D0C8F700C1147D /* LaunchScreen.storyboard */,
-				EA266EB220D0C8F700C1147D /* Info.plist */,
+				EA27F6E620D3927B0098409B /* AppDelegate.swift */,
+				EA27F6E820D3927B0098409B /* ViewController.swift */,
+				EA27F6EA20D3927B0098409B /* Main.storyboard */,
+				EA27F6ED20D3927C0098409B /* Assets.xcassets */,
+				EA27F6EF20D3927C0098409B /* LaunchScreen.storyboard */,
+				EA27F6F220D3927C0098409B /* Info.plist */,
 			);
 			path = PreGraphQL;
 			sourceTree = "<group>";
 		};
-		EA266EBA20D0C8F700C1147D /* PreGraphQLTests */ = {
+		EA27F6FA20D3927C0098409B /* PreGraphQLTests */ = {
 			isa = PBXGroup;
 			children = (
-				EA266EBB20D0C8F700C1147D /* PreGraphQLTests.swift */,
-				EA266EBD20D0C8F700C1147D /* Info.plist */,
+				EA27F6FB20D3927C0098409B /* PreGraphQLTests.swift */,
+				EA27F6FD20D3927C0098409B /* Info.plist */,
 			);
 			path = PreGraphQLTests;
 			sourceTree = "<group>";
 		};
-		EA266EC520D0C8F700C1147D /* PreGraphQLUITests */ = {
+		EA27F70520D3927C0098409B /* PreGraphQLUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EA266EC620D0C8F700C1147D /* PreGraphQLUITests.swift */,
-				EA266EC820D0C8F700C1147D /* Info.plist */,
+				EA27F70620D3927C0098409B /* PreGraphQLUITests.swift */,
+				EA27F70820D3927C0098409B /* Info.plist */,
 			);
 			path = PreGraphQLUITests;
+			sourceTree = "<group>";
+		};
+		EA27F71420D394090098409B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA27F71520D3940A0098409B /* Apollo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA266EA220D0C8F600C1147D /* PreGraphQL */ = {
+		EA27F6E220D3927B0098409B /* PreGraphQL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA266ECB20D0C8F700C1147D /* Build configuration list for PBXNativeTarget "PreGraphQL" */;
+			buildConfigurationList = EA27F70B20D3927C0098409B /* Build configuration list for PBXNativeTarget "PreGraphQL" */;
 			buildPhases = (
-				EA266E9F20D0C8F600C1147D /* Sources */,
-				EA266EA020D0C8F600C1147D /* Frameworks */,
-				EA266EA120D0C8F600C1147D /* Resources */,
+				EA27F71820D395C20098409B /* Generate Apollo GraphQL API */,
+				EA27F6DF20D3927B0098409B /* Sources */,
+				EA27F6E020D3927B0098409B /* Frameworks */,
+				EA27F6E120D3927B0098409B /* Resources */,
+				EA27F71720D394100098409B /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -142,69 +156,69 @@
 			);
 			name = PreGraphQL;
 			productName = PreGraphQL;
-			productReference = EA266EA320D0C8F600C1147D /* PreGraphQL.app */;
+			productReference = EA27F6E320D3927B0098409B /* PreGraphQL.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EA266EB620D0C8F700C1147D /* PreGraphQLTests */ = {
+		EA27F6F620D3927C0098409B /* PreGraphQLTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA266ECE20D0C8F700C1147D /* Build configuration list for PBXNativeTarget "PreGraphQLTests" */;
+			buildConfigurationList = EA27F70E20D3927C0098409B /* Build configuration list for PBXNativeTarget "PreGraphQLTests" */;
 			buildPhases = (
-				EA266EB320D0C8F700C1147D /* Sources */,
-				EA266EB420D0C8F700C1147D /* Frameworks */,
-				EA266EB520D0C8F700C1147D /* Resources */,
+				EA27F6F320D3927C0098409B /* Sources */,
+				EA27F6F420D3927C0098409B /* Frameworks */,
+				EA27F6F520D3927C0098409B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EA266EB920D0C8F700C1147D /* PBXTargetDependency */,
+				EA27F6F920D3927C0098409B /* PBXTargetDependency */,
 			);
 			name = PreGraphQLTests;
 			productName = PreGraphQLTests;
-			productReference = EA266EB720D0C8F700C1147D /* PreGraphQLTests.xctest */;
+			productReference = EA27F6F720D3927C0098409B /* PreGraphQLTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EA266EC120D0C8F700C1147D /* PreGraphQLUITests */ = {
+		EA27F70120D3927C0098409B /* PreGraphQLUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA266ED120D0C8F700C1147D /* Build configuration list for PBXNativeTarget "PreGraphQLUITests" */;
+			buildConfigurationList = EA27F71120D3927C0098409B /* Build configuration list for PBXNativeTarget "PreGraphQLUITests" */;
 			buildPhases = (
-				EA266EBE20D0C8F700C1147D /* Sources */,
-				EA266EBF20D0C8F700C1147D /* Frameworks */,
-				EA266EC020D0C8F700C1147D /* Resources */,
+				EA27F6FE20D3927C0098409B /* Sources */,
+				EA27F6FF20D3927C0098409B /* Frameworks */,
+				EA27F70020D3927C0098409B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EA266EC420D0C8F700C1147D /* PBXTargetDependency */,
+				EA27F70420D3927C0098409B /* PBXTargetDependency */,
 			);
 			name = PreGraphQLUITests;
 			productName = PreGraphQLUITests;
-			productReference = EA266EC220D0C8F700C1147D /* PreGraphQLUITests.xctest */;
+			productReference = EA27F70220D3927C0098409B /* PreGraphQLUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EA266E9B20D0C8F600C1147D /* Project object */ = {
+		EA27F6DB20D3927B0098409B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Masakazu Sano";
 				TargetAttributes = {
-					EA266EA220D0C8F600C1147D = {
+					EA27F6E220D3927B0098409B = {
 						CreatedOnToolsVersion = 9.4;
 					};
-					EA266EB620D0C8F700C1147D = {
+					EA27F6F620D3927C0098409B = {
 						CreatedOnToolsVersion = 9.4;
-						TestTargetID = EA266EA220D0C8F600C1147D;
+						TestTargetID = EA27F6E220D3927B0098409B;
 					};
-					EA266EC120D0C8F700C1147D = {
+					EA27F70120D3927C0098409B = {
 						CreatedOnToolsVersion = 9.4;
-						TestTargetID = EA266EA220D0C8F600C1147D;
+						TestTargetID = EA27F6E220D3927B0098409B;
 					};
 				};
 			};
-			buildConfigurationList = EA266E9E20D0C8F600C1147D /* Build configuration list for PBXProject "PreGraphQL" */;
+			buildConfigurationList = EA27F6DE20D3927B0098409B /* Build configuration list for PBXProject "PreGraphQL" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +226,37 @@
 				en,
 				Base,
 			);
-			mainGroup = EA266E9A20D0C8F600C1147D;
-			productRefGroup = EA266EA420D0C8F600C1147D /* Products */;
+			mainGroup = EA27F6DA20D3927B0098409B;
+			productRefGroup = EA27F6E420D3927B0098409B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA266EA220D0C8F600C1147D /* PreGraphQL */,
-				EA266EB620D0C8F700C1147D /* PreGraphQLTests */,
-				EA266EC120D0C8F700C1147D /* PreGraphQLUITests */,
+				EA27F6E220D3927B0098409B /* PreGraphQL */,
+				EA27F6F620D3927C0098409B /* PreGraphQLTests */,
+				EA27F70120D3927C0098409B /* PreGraphQLUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EA266EA120D0C8F600C1147D /* Resources */ = {
+		EA27F6E120D3927B0098409B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA266EB120D0C8F700C1147D /* LaunchScreen.storyboard in Resources */,
-				EA266EAE20D0C8F700C1147D /* Assets.xcassets in Resources */,
-				EA266EAC20D0C8F600C1147D /* Main.storyboard in Resources */,
+				EA27F6F120D3927C0098409B /* LaunchScreen.storyboard in Resources */,
+				EA27F6EE20D3927C0098409B /* Assets.xcassets in Resources */,
+				EA27F6EC20D3927B0098409B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA266EB520D0C8F700C1147D /* Resources */ = {
+		EA27F6F520D3927C0098409B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA266EC020D0C8F700C1147D /* Resources */ = {
+		EA27F70020D3927C0098409B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -251,60 +265,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EA27F71720D394100098409B /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Apollo.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		EA27F71820D395C20098409B /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "source ~/.bash_profile\n\nAPOLLO_FRAMEWORK_PATH=\"$(eval find $FRAMEWORK_SEARCH_PATHS -name \"Apollo.framework\" -maxdepth 1)\"\n\nif [ -z \"$APOLLO_FRAMEWORK_PATH\" ]; then\necho \"error: Couldn't find Apollo.framework in FRAMEWORK_SEARCH_PATHS; make sure to add the framework to your project.\"\nexit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n$APOLLO_FRAMEWORK_PATH/check-and-run-apollo-codegen.sh generate $(find . -name '*.graphql') --schema schema.json --output API.swift";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		EA266E9F20D0C8F600C1147D /* Sources */ = {
+		EA27F6DF20D3927B0098409B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA266EA920D0C8F600C1147D /* ViewController.swift in Sources */,
-				EA266EA720D0C8F600C1147D /* AppDelegate.swift in Sources */,
+				EA27F6E920D3927B0098409B /* ViewController.swift in Sources */,
+				EA27F6E720D3927B0098409B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA266EB320D0C8F700C1147D /* Sources */ = {
+		EA27F6F320D3927C0098409B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA266EBC20D0C8F700C1147D /* PreGraphQLTests.swift in Sources */,
+				EA27F6FC20D3927C0098409B /* PreGraphQLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA266EBE20D0C8F700C1147D /* Sources */ = {
+		EA27F6FE20D3927C0098409B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA266EC720D0C8F700C1147D /* PreGraphQLUITests.swift in Sources */,
+				EA27F70720D3927C0098409B /* PreGraphQLUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EA266EB920D0C8F700C1147D /* PBXTargetDependency */ = {
+		EA27F6F920D3927C0098409B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA266EA220D0C8F600C1147D /* PreGraphQL */;
-			targetProxy = EA266EB820D0C8F700C1147D /* PBXContainerItemProxy */;
+			target = EA27F6E220D3927B0098409B /* PreGraphQL */;
+			targetProxy = EA27F6F820D3927C0098409B /* PBXContainerItemProxy */;
 		};
-		EA266EC420D0C8F700C1147D /* PBXTargetDependency */ = {
+		EA27F70420D3927C0098409B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA266EA220D0C8F600C1147D /* PreGraphQL */;
-			targetProxy = EA266EC320D0C8F700C1147D /* PBXContainerItemProxy */;
+			target = EA27F6E220D3927B0098409B /* PreGraphQL */;
+			targetProxy = EA27F70320D3927C0098409B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EA266EAA20D0C8F600C1147D /* Main.storyboard */ = {
+		EA27F6EA20D3927B0098409B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA266EAB20D0C8F600C1147D /* Base */,
+				EA27F6EB20D3927B0098409B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EA266EAF20D0C8F700C1147D /* LaunchScreen.storyboard */ = {
+		EA27F6EF20D3927C0098409B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA266EB020D0C8F700C1147D /* Base */,
+				EA27F6F020D3927C0098409B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +358,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EA266EC920D0C8F700C1147D /* Debug */ = {
+		EA27F70920D3927C0098409B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,7 +418,7 @@
 			};
 			name = Debug;
 		};
-		EA266ECA20D0C8F700C1147D /* Release */ = {
+		EA27F70A20D3927C0098409B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,12 +472,16 @@
 			};
 			name = Release;
 		};
-		EA266ECC20D0C8F700C1147D /* Debug */ = {
+		EA27F70C20D3927C0098409B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = PreGraphQL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,12 +494,16 @@
 			};
 			name = Debug;
 		};
-		EA266ECD20D0C8F700C1147D /* Release */ = {
+		EA27F70D20D3927C0098409B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = PreGraphQL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,7 +516,7 @@
 			};
 			name = Release;
 		};
-		EA266ECF20D0C8F700C1147D /* Debug */ = {
+		EA27F70F20D3927C0098409B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -483,7 +537,7 @@
 			};
 			name = Debug;
 		};
-		EA266ED020D0C8F700C1147D /* Release */ = {
+		EA27F71020D3927C0098409B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -504,7 +558,7 @@
 			};
 			name = Release;
 		};
-		EA266ED220D0C8F700C1147D /* Debug */ = {
+		EA27F71220D3927C0098409B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -524,7 +578,7 @@
 			};
 			name = Debug;
 		};
-		EA266ED320D0C8F700C1147D /* Release */ = {
+		EA27F71320D3927C0098409B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -547,43 +601,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA266E9E20D0C8F600C1147D /* Build configuration list for PBXProject "PreGraphQL" */ = {
+		EA27F6DE20D3927B0098409B /* Build configuration list for PBXProject "PreGraphQL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA266EC920D0C8F700C1147D /* Debug */,
-				EA266ECA20D0C8F700C1147D /* Release */,
+				EA27F70920D3927C0098409B /* Debug */,
+				EA27F70A20D3927C0098409B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA266ECB20D0C8F700C1147D /* Build configuration list for PBXNativeTarget "PreGraphQL" */ = {
+		EA27F70B20D3927C0098409B /* Build configuration list for PBXNativeTarget "PreGraphQL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA266ECC20D0C8F700C1147D /* Debug */,
-				EA266ECD20D0C8F700C1147D /* Release */,
+				EA27F70C20D3927C0098409B /* Debug */,
+				EA27F70D20D3927C0098409B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA266ECE20D0C8F700C1147D /* Build configuration list for PBXNativeTarget "PreGraphQLTests" */ = {
+		EA27F70E20D3927C0098409B /* Build configuration list for PBXNativeTarget "PreGraphQLTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA266ECF20D0C8F700C1147D /* Debug */,
-				EA266ED020D0C8F700C1147D /* Release */,
+				EA27F70F20D3927C0098409B /* Debug */,
+				EA27F71020D3927C0098409B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA266ED120D0C8F700C1147D /* Build configuration list for PBXNativeTarget "PreGraphQLUITests" */ = {
+		EA27F71120D3927C0098409B /* Build configuration list for PBXNativeTarget "PreGraphQLUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA266ED220D0C8F700C1147D /* Debug */,
-				EA266ED320D0C8F700C1147D /* Release */,
+				EA27F71220D3927C0098409B /* Debug */,
+				EA27F71320D3927C0098409B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EA266E9B20D0C8F600C1147D /* Project object */;
+	rootObject = EA27F6DB20D3927B0098409B /* Project object */;
 }

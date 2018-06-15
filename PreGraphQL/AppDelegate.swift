@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PreGraphQL
 //
-//  Created by Masakazu Sano on 2018/06/13.
+//  Created by Masakazu Sano on 2018/06/15.
 //  Copyright © 2018年 Masakazu Sano. All rights reserved.
 //
 
