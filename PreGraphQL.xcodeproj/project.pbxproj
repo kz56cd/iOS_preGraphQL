@@ -15,6 +15,9 @@
 		EA27F6FC20D3927C0098409B /* PreGraphQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA27F6FB20D3927C0098409B /* PreGraphQLTests.swift */; };
 		EA27F70720D3927C0098409B /* PreGraphQLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA27F70620D3927C0098409B /* PreGraphQLUITests.swift */; };
 		EA27F71620D3940A0098409B /* Apollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA27F71520D3940A0098409B /* Apollo.framework */; };
+		EA27F71B20D39EE00098409B /* PostListViewController.graphql in Resources */ = {isa = PBXBuildFile; fileRef = EA27F71920D39EE00098409B /* PostListViewController.graphql */; };
+		EA27F71C20D39EE00098409B /* PostTableViewCell.graphql in Resources */ = {isa = PBXBuildFile; fileRef = EA27F71A20D39EE00098409B /* PostTableViewCell.graphql */; };
+		EA27F71E20D3A27E0098409B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA27F71D20D3A27E0098409B /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		EA27F70620D3927C0098409B /* PreGraphQLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreGraphQLUITests.swift; sourceTree = "<group>"; };
 		EA27F70820D3927C0098409B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA27F71520D3940A0098409B /* Apollo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Apollo.framework; path = Carthage/Build/iOS/Apollo.framework; sourceTree = "<group>"; };
+		EA27F71920D39EE00098409B /* PostListViewController.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PostListViewController.graphql; sourceTree = "<group>"; };
+		EA27F71A20D39EE00098409B /* PostTableViewCell.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PostTableViewCell.graphql; sourceTree = "<group>"; };
+		EA27F71D20D3A27E0098409B /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,11 @@
 		EA27F6E520D3927B0098409B /* PreGraphQL */ = {
 			isa = PBXGroup;
 			children = (
+				EA27F71D20D3A27E0098409B /* API.swift */,
 				EA27F6E620D3927B0098409B /* AppDelegate.swift */,
 				EA27F6E820D3927B0098409B /* ViewController.swift */,
+				EA27F71920D39EE00098409B /* PostListViewController.graphql */,
+				EA27F71A20D39EE00098409B /* PostTableViewCell.graphql */,
 				EA27F6EA20D3927B0098409B /* Main.storyboard */,
 				EA27F6ED20D3927C0098409B /* Assets.xcassets */,
 				EA27F6EF20D3927C0098409B /* LaunchScreen.storyboard */,
@@ -243,6 +252,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA27F71B20D39EE00098409B /* PostListViewController.graphql in Resources */,
+				EA27F71C20D39EE00098409B /* PostTableViewCell.graphql in Resources */,
 				EA27F6F120D3927C0098409B /* LaunchScreen.storyboard in Resources */,
 				EA27F6EE20D3927C0098409B /* Assets.xcassets in Resources */,
 				EA27F6EC20D3927B0098409B /* Main.storyboard in Resources */,
@@ -303,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA27F6E920D3927B0098409B /* ViewController.swift in Sources */,
+				EA27F71E20D3A27E0098409B /* API.swift in Sources */,
 				EA27F6E720D3927B0098409B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
