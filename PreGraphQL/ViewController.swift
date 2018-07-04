@@ -7,19 +7,34 @@
 //
 
 import UIKit
+import Apollo
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidAppear(_ animated: Bool) {
+        testRequest()
     }
-
-
 }
 
+extension ViewController {
+    fileprivate func testRequest() {
+        
+        // リクエスト先URL
+        guard let url = URL(string: "http://localhost:8080/graphql") else { return } // NOTE: HTTPの場合はATSを無効化しておくこと
+        
+        // ApolloClient
+        let applo = ApolloClient(networkTransport: HTTPNetworkTransport(url: url, configuration: .default))
+        
+        // ----------------------------
+        // リクエストを飛ばす
+        let query = AllPostsQuery() // リクエスト用クエリ。とりあえず全部もらうクエリを叩く
+        applo.fetch(query: query) { (result, error) in
+            guard let result = result else { return }
+            print(result.data)
+        }
+    }
+}
