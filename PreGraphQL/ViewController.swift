@@ -23,15 +23,23 @@ final class ViewController: UIViewController {
 extension ViewController {
     fileprivate func testRequest() {
         
+        // ----------------------------
+        // 01: 下準備
+
         // リクエスト先URL
         guard let url = URL(string: "http://localhost:8080/graphql") else { return } // NOTE: HTTPの場合はATSを無効化しておくこと
         
         // ApolloClient
         let applo = ApolloClient(networkTransport: HTTPNetworkTransport(url: url, configuration: .default))
+
         
         // ----------------------------
-        // リクエストを飛ばす
-        let query = AllPostsQuery() // リクエスト用クエリ。とりあえず全部もらうクエリを叩く
+        // 02: リクエストを飛ばす
+        
+        // リクエスト用クエリの用意。とりあえず全部もらうクエリを叩く
+        // PostListViewController.graphqlに記載の「AllPosts」が生成できるようになっている
+        let query = AllPostsQuery()
+        
         applo.fetch(query: query) { (result, error) in
             guard let result = result else { return }
             print(result.data)
